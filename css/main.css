@@ -1,0 +1,16 @@
+/* Dark Theme */
+body {
+    background-color: #181a1b;
+}
+h3, th, td {
+    color: #d8d4cf;
+}
+/* Highlight row shifts */
+.light .Explosive td, .heavy .Piercing td, .special .Mystic td {
+    background-color: lightgreen;
+    color: #212529;
+}
+.light .Piercing td, .heavy .Mystic td, .special .Explosive td {
+    background-color: pink;
+    color: #212529;
+}
