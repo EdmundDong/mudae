@@ -1,5 +1,5 @@
 Vue.config.devtools = true
-const url = "https://github.com/EdmundDong/mudae-trading/blob/master/harem.json"
+const url = "https://edmunddong.github.io/mudae-trading/harem.json"
 const columns = ['Select', 'Character', 'Value', 'Image']
 
 async function main() {
