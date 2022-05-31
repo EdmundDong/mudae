@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <div id='ba-tables'>
-        <ba-table :classes='table.classes' v-for='table in tables' :headers='table.headers' :rows='table.rows' :tags='table.tags'>
+    <div id='table'>
+        <ba-table :title='title' :classes='classes' :headers='headers' :rows='rows'>
         </ba-table>
     </div>
     <script src='scripts/components.js'></script>
